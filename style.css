@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 15vh;
+    width: 25%;
+    border: solid 2px rgb(241, 241, 241);
+}
+
+fieldset{
+    color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    max-width: 100%;
+    justify-content: center;
+    
+    
+}
+
+.submit{
+    padding: 5px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(20, 147, 220),rgb(90, 20, 220));
+}
+
+#data_nascimento {
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+.radio{
+    margin-bottom: 10px;
+}
+
+.inputBox {
+    position: relative;
+}
+
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputUser:focus~.labelInput, 
+.inputUser:valid~.labelInput
+{
+    top: -20px;
+    font-size: 12px;
+    color: rgb(124, 75, 170);
+}
+
+@media (max-width: 1100px){
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 15vh;
+    width: 30%;
+    border: solid 2px rgb(241, 241, 241);
+}
+
+fieldset{
+    color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    max-width: 100%;
+    justify-content: center;
+    
+    
+}
+
+.submit{
+    padding: 5px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(20, 147, 220),rgb(90, 20, 220));
+}
+
+
+
+}
+
+@media (max-width: 785px){
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 15vh;
+    width: 70%;
+    border: solid 2px rgb(241, 241, 241);
+}
+
+fieldset{
+    color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    max-width: 100%;
+    justify-content: center;
+    
+    
+}
+
+.submit{
+    padding: 5px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(20, 147, 220),rgb(90, 20, 220));
+}
+
+
+
+}
